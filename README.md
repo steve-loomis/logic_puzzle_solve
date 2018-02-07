@@ -6,9 +6,9 @@ define the parameters and clues in a logic puzzle.  It would be grandiose to cal
 DSL, but that's the direction I ended up going in.
 
 Here's a small example:
-```shell
-logic_ex2.png
-```
+
+<p align="center"><img width=100% src="https://raw.githubusercontent.com/steve-loomis/logic_puzzle_solve/master/logic%20ex2.png"></p>
+
 and here's how you enter that into the solver:
 
 ```shell
@@ -69,14 +69,12 @@ STOP
 
 Here's another puzzle:
 
-```shell
-logic_ex1.png
-```
+<p align="center"><img width=100% src="https://raw.githubusercontent.com/steve-loomis/logic_puzzle_solve/master/logic%20ex1.png"></p>
+
 
 with its definition:
 
 ```shell
-python logic_puzzle_solve.py
 3x4
 1100,1225,1350,1475
 c,d,e,f
@@ -92,9 +90,8 @@ STOP
 
 Here's a more difficult puzzle which features all clue types.
 
-```shell
-logic_ex3.png
-```
+<p align="center"><img width=100% src="https://raw.githubusercontent.com/steve-loomis/logic_puzzle_solve/master/logic%20ex3.png"></p>
+
 
 ```shell
 4x7
@@ -118,3 +115,10 @@ S-10=J
 cc-15=L
 STOP
 ```
+
+To try any of these puzzles on your own, simply type at the command line:
+
+```shell
+python logic_puzzle_solve.py
+```
+and then enter the definitions above at the prompts.  Or find a new puzzle at the link above, and enter your own definition at the prompts.
